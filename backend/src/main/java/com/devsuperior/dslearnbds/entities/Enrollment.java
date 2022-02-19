@@ -11,7 +11,7 @@ import javax.persistence.Table;
 import com.devsuperior.dslearnbds.entities.pk.EnrollmentPK;
 
 @Entity
-@Table(name = "enrollment")
+@Table(name = "tb_enrollment")
 public class Enrollment implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
